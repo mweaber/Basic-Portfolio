@@ -7,14 +7,10 @@ body{
     color:#1d1c1c;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     line-height:1.6;
-    
-
-
-}
-.nameBox{
-    background-color: #4aaaa5;
-    
-}
+    margin: 0;
+    position:relative;
+    }
+ 
 
 header{
     background-color:white;
@@ -25,18 +21,46 @@ header{
     font-family: 'Georgia', Times, Times New Roman, serif;
     width:100%;
     height:150px;
-    margin:auto;
+    /* margin:auto; */
     padding:0;
+    
+}
+
+figure{
+    font-size:18px;
+    line-height:1.6;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #4aaaa5;
+    position: relative;
+    padding:20;
+    color:white;
+    float:left;
+    left:-350px;
+    bottom:0
+    
+    
+    
+}
+.nav{
+    float:right;
+    position:relative;
+    width:70%;
+    left:50%;
+}
+.headername{
+    background-color:#4aaaa5;
+    color:whitesmoke;
+    width:50%;
     
 }
 
 #links_section{
 
-    float:right;
+    /* float:right;
     position:absolute;
     top:10;
     right:15;
-    color:#4aaaa5;
+    color:#4aaaa5; */
     
     
 }
@@ -68,7 +92,8 @@ img{
 h1{
     background-color:none;
     color:#4aaaa5;
-    margin:10px, 10px, 0px, 10px;
+    /* margin:10px, 10px, 0px, 10px; */
+    left:20px;
 
 }
 
@@ -84,15 +109,20 @@ ul{
      color:#777777;
     font-size: 18px;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    clear:center;
+    
 }
 
 footer{
+     float:none;
      color:white; 
+     bottom:0;
      text-align: center;
      height:65px;
      width:100%;
      padding:20px;
      background-color: #777777
+     
     
 
      
